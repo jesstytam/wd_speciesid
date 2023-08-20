@@ -1,0 +1,28 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/jess2/data/wild_deserts/Beyond the Fence- Tagged  # dataset root dir
+train: /home/jess2/wd_speciesid/data/processed/yolo/training  # train images (relative to 'path')
+val: /home/jess2/wd_speciesid/data/processed/yolo/validation  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+names:
+        #0: person
+  0: Red Kangaroo
+  1: Kangaroo
+  2: Dingo
+  3: Rabbit
+  4: Cat
+  5: Emu
+  6: Bird
+  7: Pig
+  8: Euro
+  9: Foxt
+  10: Echidna
+  11: Western Grey Kangaroo
+  12: Small mammal
+  13: Other
+  14: Goat
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/trial_1.zip
