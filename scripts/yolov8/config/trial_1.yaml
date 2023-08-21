@@ -6,7 +6,6 @@ test:  # test images (optional)
 
 # Classes
 names:
-        #0: person
   0: Red Kangaroo
   1: Kangaroo
   2: Dingo
