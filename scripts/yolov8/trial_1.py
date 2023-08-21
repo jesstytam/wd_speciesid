@@ -28,7 +28,7 @@ import cv2
 import time
 
 # 2. Choose our yaml file
-yaml_filename = 'config/trial_1_dataset.yaml' 
+yaml_filename = 'config/trial_1.yaml' 
 
 # 3. Create Yolo model
 model = YOLO('yolov8n.yaml') # creates Yolo object from 'yolov8n.yaml' configuration file. 
