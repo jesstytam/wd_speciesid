@@ -1,4 +1,4 @@
 names: '[''trial_1'']'
-nc: 15
+nc: 11
 train: /home/jess2/wd_speciesid/data/processed/yolo/training
 val: /home/jess2/wd_speciesid/data/processed/yolo/validation

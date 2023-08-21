@@ -3,7 +3,7 @@ import yaml
 data = {
     'train': '/home/jess2/wd_speciesid/data/processed/yolo/training', 
     'val': '/home/jess2/wd_speciesid/data/processed/yolo/validation',
-    'nc': 15,
+    'nc': 11,
     'names': '''['trial_1']'''
     }
 
