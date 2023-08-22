@@ -16,4 +16,4 @@ model = YOLO('yolov8n.pt')   # Loads pretrained weights
 model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer weights
 
 # 4. Train the model
-model.train(data='{}'.format(yaml_filename), epochs=30, patience=5, batch=8,  imgsz=640) 
+model.train(data='{}'.format(yaml_filename), epochs=100, patience=5, batch=16,  imgsz=640) 
