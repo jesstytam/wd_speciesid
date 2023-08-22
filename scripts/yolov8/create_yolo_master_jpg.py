@@ -1,8 +1,8 @@
 def update_text_file(dataset):
 
     # Define the input text file and output text file
-    input_file = '/home/jess2/wd_speciesid/data/processed/yolo/' + dataset + '/' + dataset + '_list.txt'
-    output_file = '/home/jess2/wd_speciesid/data/processed/yolo/' + dataset + '/' + dataset + '_list_jpg.txt'
+    input_file = '/home/jess2/wd_speciesid/data/processed/yolo/' + dataset + '_list.txt'
+    output_file = '/home/jess2/wd_speciesid/data/processed/yolo/' + dataset + '_list_jpg.txt'
 
     # Open the input file for reading
     with open(input_file, 'r') as input_f:

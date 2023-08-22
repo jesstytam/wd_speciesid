@@ -4,7 +4,7 @@ def write_text_file(dataset):
 
     # Define the source and destination directories
     source_directory = '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/'
-    destination_directory = '/home/jess2/wd_speciesid/data/processed/yolo/' + dataset
+    destination_directory = '/home/jess2/wd_speciesid/data/processed/yolo/'
 
     # Define the text file where you want to write the file paths
     output_file = os.path.join(destination_directory, dataset+'_list.txt')
