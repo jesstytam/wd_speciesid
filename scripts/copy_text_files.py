@@ -4,7 +4,7 @@ import shutil
 def copy_files(dataset):
 
     # Define the source and destination directories
-    source_base_dir = '/home/jess2/wd_speciesid/data/processed/yolo/training/'
+    source_base_dir = '/home/jess2/wd_speciesid/data/processed/yolo/'+dataset+'/'
     destination_base_dir = '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/'
 
     # Iterate through subdirectories within the source directory
@@ -24,9 +24,6 @@ def copy_files(dataset):
             shutil.copy(source_file, destination_file)
 
     print("Files have been copied to the 'labels' directory.")
-
-
-
 
 copy_files('training')
 copy_files('validation')
