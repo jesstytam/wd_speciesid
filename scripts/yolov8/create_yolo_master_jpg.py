@@ -14,7 +14,7 @@ def update_text_file(dataset):
     for line in lines:
         # Replace 'labels' with 'images' and '.txt' with '.jpg'
         modified_line = line.replace('labels', 'images').replace('.txt', '.JPG')
-        modified_line = modified_line.split('Beyond the Fence- Tagged/')[1]
+        modified_line = './' + modified_line.split('Beyond the Fence- Tagged/')[1]
         modified_lines.append(modified_line)
 
     # Open the output file for writing and write the modified lines
