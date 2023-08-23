@@ -1,124 +1,116 @@
-# import json
-# import os
-# from PIL import Image
-# import matplotlib.pyplot as plt
-# import matplotlib.patches as patches
+labels = {
+    0: {'label': 'Red Kangaroo', 'colour': '#C04346'},
+    1: {'label': 'Kangaroo', 'colour': '#E85155'},
+    2: {'label': 'Dingo', 'colour': '#FF595E'},
+    3: {'label': 'Rabbit', 'colour': '#FF924C'},
+    4: {'label': 'Cat', 'colour': '#FFCA3A'},
+    5: {'label': 'Emu', 'colour': '#C5CA30'},
+    6: {'label': 'Bird', 'colour': '#8AC926'},
+    7: {'label': 'Pig', 'colour': '#52A675'},
+    8: {'label': 'Euro', 'colour': '#1982C4'},
+    9: {'label': 'Fox', 'colour': '#4267AC'},
+    10: {'label': 'Echidna', 'colour': '#6A4C93'},
+    11: {'label': 'Western Grey Kangaroo', 'colour': '#785C9D'},
+    12: {'label': 'Small mammal', 'colour': '#A64692'},
+    13: {'label': 'Other', 'colour': '#D43087'},
+    14: {'label': 'Goat', 'colour': '#E067A7'}
+    }
 
-# # Load the YOLO results from the JSON file
-# json_file = '/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'
-# with open(json_file, 'r') as file:
-#     yolo_results = json.load(file)
+cameras = [
+    'PCAM01',
+    'PCAM02',
+    'PCAM03',
+    'PCAM04',
+    'PCAM05',
+    'PCAM06',
+    'PCAM07',
+    'PCAM08',
+    'PCAM09',
+    'PCAM10',
+    'PCAM12',
+    'PCAM13',
+    'PCAM14',
+    'PCAM15',
+    'WCAM01',
+    'WCAM02',
+    'WCAM03',
+    'WCAM04',
+    'WCAM05',
+    'WCAM06',
+    'WCAM07',
+    'WCAM08',
+    'WCAM09',
+    'WCAM10',
+    'WCAM12',
+    'WCAM13',
+    'WCAM14',
+    'WCAM15'
+]
 
-# # Load the image file paths from the TXT file
-# txt_file = '/home/jess2/wd_speciesid/data/processed/yolo/validation/validation_jpg.txt'
-# with open(txt_file, 'r') as file:
-#     image_paths = file.read().splitlines()
+from PIL import Image, ImageDraw, ImageFont
+import json
+import os
+from pathlib import Path
 
-# # Create a directory to save the images with bounding boxes
-# output_dir = '/home/jess2/data/wild_deserts/processed/yolo_val_outputs'
-# os.makedirs(output_dir, exist_ok=True)
+# Path to your predictions JSON file
+predictions_path = '/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'
 
-# # Create a dictionary to map image IDs to their corresponding file paths
-# image_id_to_path = {}
-# for image_path in image_paths:
-#     image_id = os.path.basename(image_path).replace('.JPG', '')
-#     image_id_to_path[image_id] = image_path
+# Load the JSON data
+with open(predictions_path, 'r') as predictions_file:
+    predictions_data = json.load(predictions_file)
 
-# # Loop through YOLO results and plot bounding boxes on images
-# for result in yolo_results:
-#     image_id = result['image_id']
-#     category_id = result['category_id']
-#     bbox = result['bbox']
+# Specify the root folder where your images are located
+image_root_folder = '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/'
 
-#     # Get the image path based on the image ID
-#     image_path = image_id_to_path.get(image_id)
-#     image_path_updated = image_path.replace('./', '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged/')
+# Create a reverse mapping from label to category_id
+label_to_category = {v['label']: k for k, v in labels.items()}
 
-#     if image_path_updated:
-#         # Load the image
-#         image = Image.open(image_path_updated)
-#         image = image.convert("RGB")
-        
-#         # Create a figure and axis
-#         fig, ax = plt.subplots(1)
+# Iterate through the predictions data
+for prediction in predictions_data:
+    image_id = prediction['image_id']
+    category_id = prediction['category_id']
+    bbox = prediction['bbox']
+    score = prediction['score']
 
-#         # Display the image
-#         ax.imshow(image)
+    # Get full image path
+    for camera in cameras:
+        if Path(os.path.join(image_root_folder, camera, image_id)).is_file:
+            image_path = os.path.join(image_root_folder, camera, image_id + '.JPG')
+            break
 
-#         # Create a rectangle patch for the bounding box
-#         x, y, width, height = bbox
-#         rect = patches.Rectangle(
-#             (x, y), width, height, linewidth=1, edgecolor='r', facecolor='none'
-#         )
+    # Load the image
+    image = Image.open(image_path)
 
-#         # Add the rectangle patch to the axis
-#         ax.add_patch(rect)
+    # Create a drawing object
+    draw = ImageDraw.Draw(image)
 
-#         # Set title and axis limits
-#         plt.title(f'Category ID: {category_id}')
-#         plt.xlim(0, image.width)
-#         plt.ylim(image.height, 0)
+    # Use the outline color based on the category ID
+    label = labels.get(category_id, {'label': 'Unknown', 'colour': '#FFFFFF'})
+    outline_colour = tuple(int(label['colour'][i:i + 2], 16) for i in (1, 3, 5))  # Convert hex to RGB
 
-#         # Save the image with bounding box to the output directory
-#         output_image_path = os.path.join(output_dir, f'{image_id}_bbox.jpg')
-#         plt.savefig(output_image_path, bbox_inches='tight', pad_inches=0)
-#         plt.close()  # Close the plot
+    # Draw a rectangle on the image
+    x, y, width, height = bbox
+    draw.rectangle([x, y, x + width, y + height], outline=outline_colour, width=6)
 
-# print(f"Bounding boxes images saved in {output_dir}")
+    # Get the label text from the reverse mapping
+    label_id = label_to_category.get(label['label'], 'Unknown')
+    label_text = f'{label["label"]} ({score})'  # Label with category label and score
+    text_color = (255, 255, 255)  # RGB color
 
+    # Load a built-in font with the specified size
+    font = ImageFont.truetype('/home/jess2/wd_speciesid/fonts/FiraMono-Bold.ttf', size=28)
 
-# coco_annotation_file = '/home/jess2/ct_classifier_wd/data/processed/' + dataset + '_coco.json'
-# coco = json.load(open(coco_annotation_file))
+    # Calculate text position
+    text_x = x
+    text_y = y - 36  # Adjust this value to set the text above the bounding box
 
-# for annotation in coco['annotations']:
+    # Draw the label text on the image
+    draw.text((text_x, text_y), label_text, fill=text_color, font=font)
 
-#     x = annotation['bbox'][0]
-#     y = annotation['bbox'][1]
-#     w = annotation['bbox'][2]
-#     h = annotation['bbox'][3]
+    # Save or display the image
+    # image.show()
 
-#     box = (x, y, x+w, y+h)
-
-#     image_path = annotation['image_id'].replace('_', ' ', 4) + '.JPG'
-#     image_path_updated = image_path.replace(' ', '/', 1)
-#     image_path_full = '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/' + image_path_updated
-#     outpath = '/home/jess2/data/wild_deserts/processed/crops/' + dataset + '/'
-
-#     img = Image.open(image_path_full)
-#     img2 = img.crop(box)
-#     img2_path = outpath + annotation['image_id'] + '.JPG'
-#     img2.save(img2_path, 'JPEG')
-
-# print('Cropping done for ' + dataset + ' images.')
-
-
-
-# import sys
-# from PIL import Image, ImageDraw
-
-# with Image.open("hopper.jpg") as im:
-
-#     draw = ImageDraw.Draw(im)
-#     draw.line((0, 0) + im.size, fill=128)
-#     draw.line((0, im.size[1], im.size[0], 0), fill=128)
-
-#     # write to stdout
-#     im.save(sys.stdout, "PNG")
-
-
-# Predict bounding boxes on validation set using trained YOLO model
-
-from ultralytics import YOLO
-
-# Load my pretrained YOLOv8n model
-model = YOLO('/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/train31/weights/best.pt')
-
-# Read in image paths for validation images
-with open('/home/jess2/wd_speciesid/data/processed/yolo/validation/validation_jpg.txt', 'r') as f:
-  image_paths = f.read().splitlines()
-
-# Iterate through images in val set and run inference
-for image in image_paths:
-  full_path = '/home/jess2/data/wild_deserts/processed/crops/val/predict/' + image
-  model.predict(full_path, save=True, save_conf = True, imgsz=320, 
-         conf=0.1, iou = 0.5) #keep default iou but set conf low bc I want to see bad ones too
+    # If you want to save the images, uncomment the following line:
+    path_to_save = f'/home/jess2/data/wild_deserts/outputs/{image_id}_output.jpg'
+    image.save(path_to_save)
+    print('Image saved to ' + path_to_save)
