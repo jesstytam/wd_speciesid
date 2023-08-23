@@ -74,9 +74,13 @@ for prediction in predictions_data:
 
     # Get full image path
     for camera in cameras:
-        if Path(os.path.join(image_root_folder, camera, image_id)).is_file:
-            image_path = os.path.join(image_root_folder, camera, image_id + '.JPG')
-            break
+        # Construct the potential image path for the current camera
+        potential_path = os.path.join(image_root_folder, camera, image_id + '.JPG')
+
+        # Check if the file exists
+        if os.path.isfile(potential_path):
+            image_path = potential_path
+            break  # Exit the loop when a valid path is found
 
     # Load the image
     image = Image.open(image_path)
@@ -111,6 +115,6 @@ for prediction in predictions_data:
     # image.show()
 
     # If you want to save the images, uncomment the following line:
-    path_to_save = f'/home/jess2/data/wild_deserts/outputs/{image_id}_output.jpg'
+    path_to_save = f'/home/jess2/data/wild_deserts/outputs/{image_id}_{label_id}.jpg'
     image.save(path_to_save)
     print('Image saved to ' + path_to_save)
