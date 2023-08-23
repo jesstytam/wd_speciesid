@@ -1,3 +1,5 @@
+#multi-class detector
+
 # 1. Import necessary libraries
 from ultralytics import YOLO # Here we import YOLO 
 import yaml                  # for yaml files 
