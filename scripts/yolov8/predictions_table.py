@@ -39,14 +39,22 @@ for prediction in yolo:
         coco_id = coco_annotation['image_id'][7:]
         coco_id = coco_id.replace('_', ' ', 3)
         if prediction['image_id'] == coco_id:
+            bbox_gt = coco_annotation['bbox']
             iou = get_iou(prediction['bbox'], coco_annotation['bbox'])
-            category_correct = prediction['category_id'] == coco_annotation['category_id']
+            category_gt = coco_annotation['category_id']
+            category_match = prediction['category_id'] == coco_annotation['category_id']
 
             # Add IOU and category correctness to the prediction dictionary
+            prediction['bbox_gt'] = bbox_gt
             prediction['iou'] = iou
-            prediction['category_correct'] = category_correct
+            prediction['category_gt'] = category_gt
+            prediction['category_match'] = category_match
 
             # write file
             with open(new_yolo, 'w') as file:
                 json.dump(yolo, file, indent=4)
                 print(yolo)
+        else:
+            pass
+
+            
