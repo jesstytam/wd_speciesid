@@ -8584,3 +8584,558 @@
 2023-08-24 20:56:48,433 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
 2023-08-24 20:56:50,434 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
 2023-08-24 20:56:51,934 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:56:52,435 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:56:54,438 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:56:56,440 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:56:57,031 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:56:58,442 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:00,443 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:02,232 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:02,444 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:02,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:57:02,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:57:04,445 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:06,447 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:07,334 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:08,449 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:10,450 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:12,451 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:12,731 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:14,454 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 20:57:14,533 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:16,535 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:17,733 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:57:17,734 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:57:17,853 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:18,537 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:20,538 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:22,539 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:22,950 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:23,547 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 20:57:23,548 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 20:57:23,549 DEBUG   SenderThread:2862363 [sender.py:send():379] send: history
+2023-08-24 20:57:23,549 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: summary_record
+2023-08-24 20:57:23,550 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-24 20:57:24,540 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/wandb-summary.json
+2023-08-24 20:57:24,540 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:26,541 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:28,136 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:28,543 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:30,544 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:32,545 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:32,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:57:32,734 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:57:33,232 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:34,547 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:36,548 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:38,549 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:38,550 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:40,551 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:42,633 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:43,952 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:44,532 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 20:57:44,637 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:46,732 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:47,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:57:47,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:57:48,733 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:49,242 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:50,735 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:52,736 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:54,737 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:54,754 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:57:56,741 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:58,445 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 20:57:58,739 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:57:59,839 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:00,741 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:02,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:58:02,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:58:02,742 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:04,744 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:04,954 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:06,750 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:08,752 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:10,155 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:10,753 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:12,755 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:14,534 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 20:58:14,756 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:15,347 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:16,831 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:17,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:58:17,734 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:58:18,833 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:20,438 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:20,834 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:22,836 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:24,837 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:25,939 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:26,839 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:28,841 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:30,842 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:31,050 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:32,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:58:32,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:58:32,844 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:34,846 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:36,431 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:36,847 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:38,932 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:40,934 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:41,551 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:42,935 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:44,535 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 20:58:44,937 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:46,742 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:46,939 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:47,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:58:47,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:58:48,940 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:50,941 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:51,798 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:52,943 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:54,944 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:56,939 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:58:56,945 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:58:58,946 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:00,947 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:01,992 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:02,734 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:59:02,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:59:02,948 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:04,950 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:06,951 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:07,053 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:08,952 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:10,953 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:12,143 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:12,954 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:14,536 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 20:59:14,956 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:16,957 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:17,222 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:17,735 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:59:17,735 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:59:18,958 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:20,959 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:22,293 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:22,960 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:24,961 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:26,962 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:27,383 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:28,964 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:30,965 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:32,522 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:32,735 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:59:32,736 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:59:32,966 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:34,967 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:36,969 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:37,523 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:38,970 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:40,971 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:42,555 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:42,972 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:44,537 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 20:59:44,973 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:46,974 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:47,697 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:47,735 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 20:59:47,736 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 20:59:48,976 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:50,977 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:52,753 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:52,978 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:54,979 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:56,980 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 20:59:57,850 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 20:59:58,981 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:00,982 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:02,735 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 21:00:02,736 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 21:00:02,924 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:02,984 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:04,312 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:04,312 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:04,313 DEBUG   SenderThread:2862363 [sender.py:send():379] send: history
+2023-08-24 21:00:04,313 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: summary_record
+2023-08-24 21:00:04,314 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-24 21:00:04,985 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/wandb-summary.json
+2023-08-24 21:00:04,985 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:06,986 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:08,150 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:08,988 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:10,989 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:12,990 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:13,191 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:14,539 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 21:00:15,031 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:17,032 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:17,736 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 21:00:17,736 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 21:00:18,232 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:19,033 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:21,034 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:23,036 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:23,161 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,175 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,175 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,175 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg with policy now
+2023-08-24 21:00:23,185 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,185 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,185 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch0_pred_62_ae2b1cac3c1e6ad6ab8f.jpg with policy now
+2023-08-24 21:00:23,194 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,194 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,194 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg with policy now
+2023-08-24 21:00:23,204 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,204 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch1_pred_62_91d6bcf89d7aefd7a324.jpg with policy now
+2023-08-24 21:00:23,204 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,214 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,214 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch2_pred_62_72a11fc1210116fdc8bc.jpg with policy now
+2023-08-24 21:00:23,214 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,223 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,223 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg with policy now
+2023-08-24 21:00:23,223 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,273 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,273 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,273 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/PR_curve_62_5e2023d4c7700318d722.png with policy now
+2023-08-24 21:00:23,274 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:23,326 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,326 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,326 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/F1_curve_62_2f9b8f94f17c2b19d5b1.png with policy now
+2023-08-24 21:00:23,378 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,378 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,378 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/P_curve_62_3e6a905e976490750584.png with policy now
+2023-08-24 21:00:23,429 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,429 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/R_curve_62_3aa7cf5940cd99a19e72.png with policy now
+2023-08-24 21:00:23,429 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,520 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,521 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,521 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/confusion_matrix_normalized_62_5b8429b5492fd320b85a.png with policy now
+2023-08-24 21:00:23,613 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:23,613 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:23,613 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/confusion_matrix_62_ed1d64cbff3250943ef7.png with policy now
+2023-08-24 21:00:24,037 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:24,037 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_normalized_62_5b8429b5492fd320b85a.png
+2023-08-24 21:00:24,037 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_pred_62_72a11fc1210116fdc8bc.jpg
+2023-08-24 21:00:24,037 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/R_curve_62_3aa7cf5940cd99a19e72.png
+2023-08-24 21:00:24,037 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/F1_curve_62_2f9b8f94f17c2b19d5b1.png
+2023-08-24 21:00:24,037 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/P_curve_62_3e6a905e976490750584.png
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_62_ed1d64cbff3250943ef7.png
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_pred_62_ae2b1cac3c1e6ad6ab8f.jpg
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_pred_62_91d6bcf89d7aefd7a324.jpg
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/PR_curve_62_5e2023d4c7700318d722.png
+2023-08-24 21:00:24,038 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images
+2023-08-24 21:00:24,123 INFO    wandb-upload_8:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/cbzheo1c-media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:24,126 INFO    wandb-upload_10:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/bi33nrhs-media/images/PR_curve_62_5e2023d4c7700318d722.png
+2023-08-24 21:00:24,212 INFO    wandb-upload_2:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/vah2zuwx-media/images/P_curve_62_3e6a905e976490750584.png
+2023-08-24 21:00:24,229 INFO    wandb-upload_9:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/487ufqwo-media/images/val_batch0_pred_62_ae2b1cac3c1e6ad6ab8f.jpg
+2023-08-24 21:00:24,274 INFO    wandb-upload_5:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/d7n7e4pf-media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:24,274 INFO    wandb-upload_4:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/nxwdgzhp-media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:24,365 INFO    wandb-upload_7:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/1vddeanc-media/images/val_batch2_pred_62_72a11fc1210116fdc8bc.jpg
+2023-08-24 21:00:24,395 INFO    wandb-upload_3:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/0mkpwti7-media/images/confusion_matrix_62_ed1d64cbff3250943ef7.png
+2023-08-24 21:00:24,410 INFO    wandb-upload_6:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/b01g1mtx-media/images/confusion_matrix_normalized_62_5b8429b5492fd320b85a.png
+2023-08-24 21:00:24,437 INFO    wandb-upload_0:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/pe1yacow-media/images/R_curve_62_3aa7cf5940cd99a19e72.png
+2023-08-24 21:00:24,514 INFO    wandb-upload_11:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/x84g3p5l-media/images/F1_curve_62_2f9b8f94f17c2b19d5b1.png
+2023-08-24 21:00:24,563 INFO    wandb-upload_8:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/tniphgzf-media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:24,566 INFO    wandb-upload_1:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/u1tsqy53-media/images/val_batch1_pred_62_91d6bcf89d7aefd7a324.jpg
+2023-08-24 21:00:24,697 INFO    wandb-upload_10:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/rjbc8sps-media/images/P_curve_62_3e6a905e976490750584.png
+2023-08-24 21:00:24,789 INFO    wandb-upload_9:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/2tcp8owc-media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:24,820 INFO    wandb-upload_4:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/30hbow78-media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:24,843 INFO    wandb-upload_3:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/b0vx1ar9-media/images/val_batch0_pred_62_ae2b1cac3c1e6ad6ab8f.jpg
+2023-08-24 21:00:24,862 INFO    wandb-upload_7:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/ex843beh-media/images/confusion_matrix_62_ed1d64cbff3250943ef7.png
+2023-08-24 21:00:24,962 INFO    wandb-upload_6:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/5bbjgnts-media/images/PR_curve_62_5e2023d4c7700318d722.png
+2023-08-24 21:00:24,974 INFO    wandb-upload_0:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/vehstkn3-media/images/confusion_matrix_normalized_62_5b8429b5492fd320b85a.png
+2023-08-24 21:00:25,039 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:25,109 INFO    wandb-upload_11:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/u84n0rm7-media/images/val_batch2_pred_62_72a11fc1210116fdc8bc.jpg
+2023-08-24 21:00:25,181 INFO    wandb-upload_5:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/aafw47e7-media/images/R_curve_62_3aa7cf5940cd99a19e72.png
+2023-08-24 21:00:25,288 INFO    wandb-upload_8:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/85lrpqib-media/images/val_batch1_pred_62_91d6bcf89d7aefd7a324.jpg
+2023-08-24 21:00:25,359 INFO    wandb-upload_2:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/knqbt0a1-media/images/F1_curve_62_2f9b8f94f17c2b19d5b1.png
+2023-08-24 21:00:27,041 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:28,380 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:29,042 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:31,044 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:32,736 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-24 21:00:32,736 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: stop_status
+2023-08-24 21:00:33,045 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:33,439 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:35,047 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:37,048 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:38,551 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:39,050 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:41,051 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:41,821 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,834 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,834 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,835 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg with policy now
+2023-08-24 21:00:41,846 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,846 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch0_pred_62_c5aa5409efb163ceef75.jpg with policy now
+2023-08-24 21:00:41,846 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,856 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,856 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,856 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg with policy now
+2023-08-24 21:00:41,866 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,866 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,867 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch1_pred_62_12ae594e87b00f9b8562.jpg with policy now
+2023-08-24 21:00:41,877 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,877 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,877 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch2_pred_62_034dc7b6eced4459f033.jpg with policy now
+2023-08-24 21:00:41,887 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,888 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,888 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg with policy now
+2023-08-24 21:00:41,937 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,938 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,938 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/PR_curve_62_9f3e2b5b04da91d92f54.png with policy now
+2023-08-24 21:00:41,992 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:41,992 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:41,992 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/F1_curve_62_edc09ab2e8705e073734.png with policy now
+2023-08-24 21:00:42,045 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:42,046 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:42,046 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/P_curve_62_12ddb15d188c788eea3c.png with policy now
+2023-08-24 21:00:42,052 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/P_curve_62_12ddb15d188c788eea3c.png
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_pred_62_c5aa5409efb163ceef75.jpg
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_pred_62_12ae594e87b00f9b8562.jpg
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/F1_curve_62_edc09ab2e8705e073734.png
+2023-08-24 21:00:42,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/PR_curve_62_9f3e2b5b04da91d92f54.png
+2023-08-24 21:00:42,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_pred_62_034dc7b6eced4459f033.jpg
+2023-08-24 21:00:42,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images
+2023-08-24 21:00:42,095 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:42,095 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:42,096 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/R_curve_62_d67bcf7302d4c2098d34.png with policy now
+2023-08-24 21:00:42,183 INFO    wandb-upload_6:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/wr15qlqv-media/images/val_batch1_pred_62_12ae594e87b00f9b8562.jpg
+2023-08-24 21:00:42,187 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:42,187 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:42,187 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/confusion_matrix_normalized_62_a542704d1348b5c19762.png with policy now
+2023-08-24 21:00:42,188 INFO    wandb-upload_10:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/i83xj0wu-media/images/val_batch0_pred_62_c5aa5409efb163ceef75.jpg
+2023-08-24 21:00:42,195 INFO    wandb-upload_11:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/i2ggr0zd-media/images/val_batch2_pred_62_034dc7b6eced4459f033.jpg
+2023-08-24 21:00:42,263 INFO    wandb-upload_4:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/esmvuls8-media/images/PR_curve_62_9f3e2b5b04da91d92f54.png
+2023-08-24 21:00:42,278 INFO    wandb-upload_8:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/p0whgws3-media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:42,280 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:42,280 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:42,280 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/confusion_matrix_62_27b9f4d6c364dd01b6db.png with policy now
+2023-08-24 21:00:42,287 INFO    wandb-upload_1:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/omivajo6-media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:42,288 INFO    wandb-upload_9:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/cee8fp43-media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:42,310 INFO    wandb-upload_7:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/y04ir4yy-media/images/F1_curve_62_edc09ab2e8705e073734.png
+2023-08-24 21:00:42,365 INFO    wandb-upload_5:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/fxotta83-media/images/P_curve_62_12ddb15d188c788eea3c.png
+2023-08-24 21:00:42,458 INFO    wandb-upload_3:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/wd6rzk2u-media/images/R_curve_62_d67bcf7302d4c2098d34.png
+2023-08-24 21:00:42,561 INFO    wandb-upload_2:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/y98n0e0c-media/images/confusion_matrix_normalized_62_a542704d1348b5c19762.png
+2023-08-24 21:00:42,681 INFO    wandb-upload_0:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/xjhpbzvf-media/images/confusion_matrix_62_27b9f4d6c364dd01b6db.png
+2023-08-24 21:00:42,691 INFO    wandb-upload_4:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/3gy9j68f-media/images/val_batch1_pred_62_12ae594e87b00f9b8562.jpg
+2023-08-24 21:00:42,709 INFO    wandb-upload_10:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/paipg17g-media/images/PR_curve_62_9f3e2b5b04da91d92f54.png
+2023-08-24 21:00:42,720 INFO    wandb-upload_6:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/43agh7e7-media/images/val_batch0_pred_62_c5aa5409efb163ceef75.jpg
+2023-08-24 21:00:42,748 INFO    wandb-upload_1:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/rl9xxi2o-media/images/val_batch2_pred_62_034dc7b6eced4459f033.jpg
+2023-08-24 21:00:42,869 INFO    wandb-upload_9:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/6w2laqp6-media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:42,981 INFO    wandb-upload_11:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/b87iay8y-media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:43,053 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:43,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_normalized_62_a542704d1348b5c19762.png
+2023-08-24 21:00:43,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/R_curve_62_d67bcf7302d4c2098d34.png
+2023-08-24 21:00:43,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_62_27b9f4d6c364dd01b6db.png
+2023-08-24 21:00:43,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images
+2023-08-24 21:00:43,114 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-24 21:00:43,115 DEBUG   SenderThread:2862363 [sender.py:send():379] send: files
+2023-08-24 21:00:43,115 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file media/images/results_62_7d1bd781a93b813ebc2d.png with policy now
+2023-08-24 21:00:43,123 INFO    wandb-upload_8:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/9ec4gf6u-media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:43,128 INFO    wandb-upload_7:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/9poi5n8h-media/images/P_curve_62_12ddb15d188c788eea3c.png
+2023-08-24 21:00:43,141 INFO    wandb-upload_5:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/43ptfc2e-media/images/F1_curve_62_edc09ab2e8705e073734.png
+2023-08-24 21:00:43,417 INFO    wandb-upload_1:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/q9sqxsn5-media/images/results_62_7d1bd781a93b813ebc2d.png
+2023-08-24 21:00:43,435 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: log_artifact
+2023-08-24 21:00:43,436 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: log_artifact
+2023-08-24 21:00:43,450 INFO    wandb-upload_2:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/ria0gbpr-media/images/R_curve_62_d67bcf7302d4c2098d34.png
+2023-08-24 21:00:43,458 INFO    wandb-upload_3:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/1hbo6zcm-media/images/confusion_matrix_normalized_62_a542704d1348b5c19762.png
+2023-08-24 21:00:43,464 INFO    wandb-upload_0:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/b0b0r83a-media/images/confusion_matrix_62_27b9f4d6c364dd01b6db.png
+2023-08-24 21:00:44,054 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/results_62_7d1bd781a93b813ebc2d.png
+2023-08-24 21:00:44,055 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images
+2023-08-24 21:00:44,475 INFO    wandb-upload_10:2862363 [upload_job.py:push():131] Uploaded file /tmp/tmpemcgkcxewandb/u9qyo8f0-media/images/results_62_7d1bd781a93b813ebc2d.png
+2023-08-24 21:00:44,478 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-24 21:00:45,589 INFO    wandb-upload_11:2862363 [upload_job.py:push():89] Uploaded file /home/jess2/.local/share/wandb/artifacts/staging/tmp_0hrem2i
+2023-08-24 21:00:46,307 INFO    SenderThread:2862363 [sender.py:send_request_log_artifact():1441] logged artifact run_bzr4f79k_model - {'id': 'QXJ0aWZhY3Q6NTUwNjM0MTM1', 'digest': 'd1cfa7a524244ed625842cc6ec82ea37', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjkyNjU2NjQz', 'latestArtifact': None}, 'version': 'latest'}
+2023-08-24 21:00:46,307 DEBUG   SenderThread:2862363 [sender.py:send():379] send: telemetry
+2023-08-24 21:00:46,307 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:46,308 DEBUG   SenderThread:2862363 [sender.py:send():379] send: exit
+2023-08-24 21:00:46,308 INFO    SenderThread:2862363 [sender.py:send_exit():584] handling exit code: 0
+2023-08-24 21:00:46,309 INFO    SenderThread:2862363 [sender.py:send_exit():586] handling runtime: 9570
+2023-08-24 21:00:46,309 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-24 21:00:46,310 INFO    SenderThread:2862363 [sender.py:send_exit():592] send defer
+2023-08-24 21:00:46,310 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: poll_exit
+2023-08-24 21:00:46,310 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,310 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 21:00:46,310 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-24 21:00:46,311 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,311 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-24 21:00:46,311 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 1
+2023-08-24 21:00:46,312 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,312 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-24 21:00:46,312 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,312 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-24 21:00:46,312 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 2
+2023-08-24 21:00:46,312 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,312 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-24 21:00:46,312 INFO    HandlerThread:2862363 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-24 21:00:46,313 INFO    HandlerThread:2862363 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-24 21:00:46,313 DEBUG   SystemMonitor:2862363 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-24 21:00:46,313 INFO    HandlerThread:2862363 [interfaces.py:finish():202] Joined disk monitor
+2023-08-24 21:00:46,313 DEBUG   SystemMonitor:2862363 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-24 21:00:46,488 INFO    HandlerThread:2862363 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-24 21:00:46,488 INFO    HandlerThread:2862363 [interfaces.py:finish():202] Joined memory monitor
+2023-08-24 21:00:46,488 INFO    HandlerThread:2862363 [interfaces.py:finish():202] Joined network monitor
+2023-08-24 21:00:46,489 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,489 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-24 21:00:46,489 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 3
+2023-08-24 21:00:46,489 DEBUG   SenderThread:2862363 [sender.py:send():379] send: stats
+2023-08-24 21:00:46,489 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,491 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-24 21:00:46,493 DEBUG   SenderThread:2862363 [sender.py:send():379] send: history
+2023-08-24 21:00:46,493 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: summary_record
+2023-08-24 21:00:46,494 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-24 21:00:46,494 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,494 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-24 21:00:46,494 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 4
+2023-08-24 21:00:46,494 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,494 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-24 21:00:46,494 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,494 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-24 21:00:46,494 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 5
+2023-08-24 21:00:46,495 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,495 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-24 21:00:46,496 DEBUG   SenderThread:2862363 [sender.py:send():379] send: summary
+2023-08-24 21:00:46,496 INFO    SenderThread:2862363 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-24 21:00:46,496 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,496 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-24 21:00:46,496 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 6
+2023-08-24 21:00:46,497 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,497 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-24 21:00:46,497 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,497 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-24 21:00:46,500 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:46,682 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 7
+2023-08-24 21:00:46,683 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:46,683 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-24 21:00:46,683 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:46,683 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-24 21:00:47,057 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/config.yaml
+2023-08-24 21:00:47,057 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/wandb-summary.json
+2023-08-24 21:00:48,503 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 8
+2023-08-24 21:00:48,503 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:48,503 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-24 21:00:48,504 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:48,504 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-24 21:00:48,504 INFO    SenderThread:2862363 [job_builder.py:build():281] Attempting to build job artifact
+2023-08-24 21:00:48,506 INFO    SenderThread:2862363 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-08-24 21:00:48,507 INFO    SenderThread:2862363 [job_builder.py:build():374] adding wandb-job metadata file
+2023-08-24 21:00:48,510 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 9
+2023-08-24 21:00:48,510 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:48,510 DEBUG   SenderThread:2862363 [sender.py:send():379] send: artifact
+2023-08-24 21:00:48,510 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-24 21:00:49,059 INFO    Thread-12 :2862363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:49,479 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-24 21:00:51,843 INFO    wandb-upload_9:2862363 [upload_job.py:push():89] Uploaded file /home/jess2/.local/share/wandb/artifacts/staging/tmpz2g81env
+2023-08-24 21:00:51,909 INFO    wandb-upload_8:2862363 [upload_job.py:push():89] Uploaded file /home/jess2/.local/share/wandb/artifacts/staging/tmpoym386ep
+2023-08-24 21:00:52,839 INFO    SenderThread:2862363 [sender.py:send_artifact():1475] sent artifact job-git_github.com_jesstytam_wd_speciesid.git_scripts_yolov8_trial_3.py - {'id': 'QXJ0aWZhY3Q6NTUwNjM0MTg0', 'digest': 'd145252b9172e3928c3dcb79f3e850a8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjkyNjU2NjU2', 'latestArtifact': None}, 'version': 'latest'}
+2023-08-24 21:00:52,839 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:52,839 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: status_report
+2023-08-24 21:00:52,839 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-24 21:00:52,840 INFO    SenderThread:2862363 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-24 21:00:53,133 INFO    SenderThread:2862363 [dir_watcher.py:finish():388] scan: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files
+2023-08-24 21:00:53,134 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/config.yaml config.yaml
+2023-08-24 21:00:53,134 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/wandb-summary.json wandb-summary.json
+2023-08-24 21:00:53,134 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/requirements.txt requirements.txt
+2023-08-24 21:00:53,138 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/conda-environment.yaml conda-environment.yaml
+2023-08-24 21:00:53,139 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/wandb-metadata.json wandb-metadata.json
+2023-08-24 21:00:53,141 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log output.log
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/labels_1_2d1d95a2f3bd3f71cae4.jpg media/images/labels_1_2d1d95a2f3bd3f71cae4.jpg
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/train_batch0_1_73361b832fd15be6fe9b.jpg media/images/train_batch0_1_73361b832fd15be6fe9b.jpg
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/train_batch1_1_d84ce7dfa1500f754122.jpg media/images/train_batch1_1_d84ce7dfa1500f754122.jpg
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/train_batch2_1_fec346d821cf3e9c7602.jpg media/images/train_batch2_1_fec346d821cf3e9c7602.jpg
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_labels_25_fd23dce38ae0197b6713.jpg media/images/val_batch0_labels_25_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_pred_25_de3cc5f64f3a560f82a7.jpg media/images/val_batch0_pred_25_de3cc5f64f3a560f82a7.jpg
+2023-08-24 21:00:53,145 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_labels_25_979c0129a83e7d315d03.jpg media/images/val_batch1_labels_25_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_pred_25_5b3ba0c89706e57f6ffa.jpg media/images/val_batch1_pred_25_5b3ba0c89706e57f6ffa.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_pred_25_0212049215dc636af167.jpg media/images/val_batch2_pred_25_0212049215dc636af167.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_labels_25_be528fe815a3fbc2118f.jpg media/images/val_batch2_labels_25_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/PR_curve_25_09e9782c05f72266cba8.png media/images/PR_curve_25_09e9782c05f72266cba8.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/F1_curve_25_f56bc3b43af22fd8d39d.png media/images/F1_curve_25_f56bc3b43af22fd8d39d.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/P_curve_25_94ea65e2efd58cb265a3.png media/images/P_curve_25_94ea65e2efd58cb265a3.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/R_curve_25_626aa7991db356d97005.png media/images/R_curve_25_626aa7991db356d97005.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_normalized_25_79ceb9e89242283ca210.png media/images/confusion_matrix_normalized_25_79ceb9e89242283ca210.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_25_0d344f0522cb853083bd.png media/images/confusion_matrix_25_0d344f0522cb853083bd.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg media/images/val_batch0_labels_62_fd23dce38ae0197b6713.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_pred_62_ae2b1cac3c1e6ad6ab8f.jpg media/images/val_batch0_pred_62_ae2b1cac3c1e6ad6ab8f.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg media/images/val_batch1_labels_62_979c0129a83e7d315d03.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_pred_62_91d6bcf89d7aefd7a324.jpg media/images/val_batch1_pred_62_91d6bcf89d7aefd7a324.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_pred_62_72a11fc1210116fdc8bc.jpg media/images/val_batch2_pred_62_72a11fc1210116fdc8bc.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg media/images/val_batch2_labels_62_be528fe815a3fbc2118f.jpg
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/PR_curve_62_5e2023d4c7700318d722.png media/images/PR_curve_62_5e2023d4c7700318d722.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/F1_curve_62_2f9b8f94f17c2b19d5b1.png media/images/F1_curve_62_2f9b8f94f17c2b19d5b1.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/P_curve_62_3e6a905e976490750584.png media/images/P_curve_62_3e6a905e976490750584.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/R_curve_62_3aa7cf5940cd99a19e72.png media/images/R_curve_62_3aa7cf5940cd99a19e72.png
+2023-08-24 21:00:53,146 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_normalized_62_5b8429b5492fd320b85a.png media/images/confusion_matrix_normalized_62_5b8429b5492fd320b85a.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_62_ed1d64cbff3250943ef7.png media/images/confusion_matrix_62_ed1d64cbff3250943ef7.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch0_pred_62_c5aa5409efb163ceef75.jpg media/images/val_batch0_pred_62_c5aa5409efb163ceef75.jpg
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch1_pred_62_12ae594e87b00f9b8562.jpg media/images/val_batch1_pred_62_12ae594e87b00f9b8562.jpg
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/val_batch2_pred_62_034dc7b6eced4459f033.jpg media/images/val_batch2_pred_62_034dc7b6eced4459f033.jpg
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/PR_curve_62_9f3e2b5b04da91d92f54.png media/images/PR_curve_62_9f3e2b5b04da91d92f54.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/F1_curve_62_edc09ab2e8705e073734.png media/images/F1_curve_62_edc09ab2e8705e073734.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/P_curve_62_12ddb15d188c788eea3c.png media/images/P_curve_62_12ddb15d188c788eea3c.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/R_curve_62_d67bcf7302d4c2098d34.png media/images/R_curve_62_d67bcf7302d4c2098d34.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_normalized_62_a542704d1348b5c19762.png media/images/confusion_matrix_normalized_62_a542704d1348b5c19762.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/confusion_matrix_62_27b9f4d6c364dd01b6db.png media/images/confusion_matrix_62_27b9f4d6c364dd01b6db.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [dir_watcher.py:finish():402] scan save: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/media/images/results_62_7d1bd781a93b813ebc2d.png media/images/results_62_7d1bd781a93b813ebc2d.png
+2023-08-24 21:00:53,147 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 10
+2023-08-24 21:00:53,147 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:53,148 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-24 21:00:53,148 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:53,148 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-24 21:00:53,148 INFO    SenderThread:2862363 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-24 21:00:53,424 INFO    wandb-upload_3:2862363 [upload_job.py:push():131] Uploaded file /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/requirements.txt
+2023-08-24 21:00:53,429 INFO    wandb-upload_2:2862363 [upload_job.py:push():131] Uploaded file /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/wandb-summary.json
+2023-08-24 21:00:53,434 INFO    wandb-upload_5:2862363 [upload_job.py:push():131] Uploaded file /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/config.yaml
+2023-08-24 21:00:53,440 INFO    wandb-upload_0:2862363 [upload_job.py:push():131] Uploaded file /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/conda-environment.yaml
+2023-08-24 21:00:53,461 INFO    wandb-upload_6:2862363 [upload_job.py:push():131] Uploaded file /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/files/output.log
+2023-08-24 21:00:53,661 INFO    Thread-11 :2862363 [sender.py:transition_state():612] send defer: 11
+2023-08-24 21:00:53,662 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:53,662 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-24 21:00:53,662 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:53,663 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-24 21:00:53,663 INFO    SenderThread:2862363 [file_pusher.py:join():164] waiting for file pusher
+2023-08-24 21:00:53,663 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 12
+2023-08-24 21:00:53,663 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:53,663 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-24 21:00:53,663 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:53,663 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-24 21:00:53,664 INFO    SenderThread:2862363 [file_stream.py:finish():593] file stream finish called
+2023-08-24 21:00:54,068 INFO    SenderThread:2862363 [file_stream.py:finish():597] file stream finish is done
+2023-08-24 21:00:54,068 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 13
+2023-08-24 21:00:54,068 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:54,069 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-24 21:00:54,069 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:54,069 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-24 21:00:54,069 INFO    SenderThread:2862363 [sender.py:transition_state():612] send defer: 14
+2023-08-24 21:00:54,069 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: defer
+2023-08-24 21:00:54,069 INFO    HandlerThread:2862363 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-24 21:00:54,070 DEBUG   SenderThread:2862363 [sender.py:send():379] send: final
+2023-08-24 21:00:54,070 DEBUG   SenderThread:2862363 [sender.py:send():379] send: footer
+2023-08-24 21:00:54,070 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: defer
+2023-08-24 21:00:54,070 INFO    SenderThread:2862363 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-24 21:00:54,071 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-24 21:00:54,071 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: server_info
+2023-08-24 21:00:54,071 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-24 21:00:54,072 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: poll_exit
+2023-08-24 21:00:54,072 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: server_info
+2023-08-24 21:00:54,074 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-24 21:00:54,075 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: job_info
+2023-08-24 21:00:54,140 DEBUG   SenderThread:2862363 [sender.py:send_request():406] send_request: job_info
+2023-08-24 21:00:54,140 INFO    MainThread:2862363 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-24 21:00:54,142 INFO    MainThread:2862363 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-24 21:00:54,142 INFO    MainThread:2862363 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-08-24 21:00:54,143 DEBUG   HandlerThread:2862363 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-24 21:00:54,143 INFO    HandlerThread:2862363 [handler.py:finish():857] shutting down handler
+2023-08-24 21:00:55,076 INFO    WriterThread:2862363 [datastore.py:close():294] close: /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_182112-bzr4f79k/run-bzr4f79k.wandb
+2023-08-24 21:00:55,140 INFO    SenderThread:2862363 [sender.py:finish():1552] shutting down sender
+2023-08-24 21:00:55,141 INFO    SenderThread:2862363 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-24 21:00:55,141 INFO    SenderThread:2862363 [file_pusher.py:join():164] waiting for file pusher

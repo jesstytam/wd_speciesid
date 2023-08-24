@@ -24,3 +24,17 @@ config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8s.yaml', 'data': 'co
 2023-08-24 18:21:14,968 INFO    MainThread:2861989 [wandb_run.py:_redirect():2079] Wrapping output streams.
 2023-08-24 18:21:14,968 INFO    MainThread:2861989 [wandb_run.py:_redirect():2104] Redirects installed.
 2023-08-24 18:21:14,968 INFO    MainThread:2861989 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Configure stats pid to 2861989
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Loading settings from /home/jess2/.config/wandb/settings
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Loading settings from /home/jess2/wd_speciesid/scripts/yolov8/wandb/settings
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/yolov8/trial_3.py', 'program': '/home/jess2/wd_speciesid/scripts/yolov8/trial_3.py'}
+2023-08-24 21:00:43,475 INFO    MainThread:2861989 [wandb_init.py:_log_setup():507] Logging user logs to /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_210043-koukmfje/logs/debug.log
+2023-08-24 21:00:43,476 INFO    MainThread:2861989 [wandb_init.py:_log_setup():508] Logging internal logs to /home/jess2/wd_speciesid/scripts/yolov8/wandb/run-20230824_210043-koukmfje/logs/debug-internal.log
+2023-08-24 21:00:43,476 INFO    MainThread:2861989 [wandb_init.py:init():547] calling init triggers
+2023-08-24 21:00:43,476 INFO    MainThread:2861989 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'project': 'yolov8s-multi-class', 'num_of_classes': 15}
+2023-08-24 21:00:43,476 INFO    MainThread:2861989 [wandb_init.py:init():591] wandb.init() called when a run is still active
+2023-08-24 21:00:55,402 WARNING MsgRouterThr:2861989 [router.py:message_loop():77] message_loop has been closed

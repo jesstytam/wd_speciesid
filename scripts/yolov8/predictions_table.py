@@ -3,12 +3,13 @@ import cv2
 
 yolo = json.load(open('/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'))
 coco = json.load(open('/home/jess2/wd_speciesid/data/processed/val_coco.json'))
+new_yolo = '/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/updated_predictions.json'
 
-def get_iou(json, coco):
+def get_iou(json_bbox, coco_bbox):
             
     # Define two bounding boxes as (x, y, width, height)
-    box1 = coco['annotations']['bbox'] #ground truth
-    box2 = json['bbox'] #prediction
+    box1 = coco_bbox #ground truth
+    box2 = json_bbox #prediction
 
     # Convert bounding box coordinates to the format (x1, y1, x2, y2)
     box1 = [box1[0], box1[1], box1[0] + box1[2], box1[1] + box1[3]]
@@ -32,22 +33,20 @@ def get_iou(json, coco):
     iou = area_intersection / area_union
     return iou
 
-updated_predictions = '/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/updated_predictions.json'
-
 # Iterate through predictions and add IOU and category correctness information
 for prediction in yolo:
     for coco_annotation in coco['annotations']:
-        # print(prediction)
-        # print(coco_annotation)
-        coco_id = coco_annotation['file_name'].split('/')[1].split('.')[0]
-        if prediction['image_id'] == coco_annotation['image_id']:
+        coco_id = coco_annotation['image_id'][7:]
+        coco_id = coco_id.replace('_', ' ', 3)
+        if prediction['image_id'] == coco_id:
             iou = get_iou(prediction['bbox'], coco_annotation['bbox'])
             category_correct = prediction['category_id'] == coco_annotation['category_id']
 
             # Add IOU and category correctness to the prediction dictionary
-            iou = prediction['iou']
-            category_correct = prediction['category_correct']
+            prediction['iou'] = iou
+            prediction['category_correct'] = category_correct
 
             # write file
-            with open(updated_predictions, 'w') as file:
+            with open(new_yolo, 'w') as file:
                 json.dump(yolo, file, indent=4)
+                print(yolo)
