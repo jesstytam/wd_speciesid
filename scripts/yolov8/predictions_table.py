@@ -1,7 +1,13 @@
 import json
 import cv2
 
-yolo = json.load(open('/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'))
+load_yolo = json.load(open('/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'))
+yolo=[]
+for prediction in load_yolo:
+    if prediction['score']>0.05:
+        good_prediction = prediction
+        yolo.append(good_prediction)
+
 coco = json.load(open('/home/jess2/wd_speciesid/data/processed/val_coco.json'))
 new_yolo = '/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/updated_predictions.json'
 
@@ -43,22 +49,20 @@ for coco_annotation in coco['annotations']:
 for prediction in yolo:
     coco_id = prediction['image_id']
     if coco_id in gt_index:
-        coco_annotation = gt_index[coco_id]
-        bbox_gt = coco_annotation['bbox']
-        iou = get_iou(prediction['bbox'], bbox_gt)
-        category_gt = coco_annotation['category_id']
-        category_match = prediction['category_id'] == category_gt
-
-        # Add IOU and category correctness to the prediction dictionary
-        prediction['bbox_gt'] = bbox_gt
-        prediction['iou'] = iou
-        prediction['category_gt'] = category_gt
-        prediction['category_match'] = category_match
-
-        # write file
-        with open(new_yolo, 'w') as file:
-            json.dump(yolo, file, indent=4)
-            print(yolo)
+            coco_annotation = gt_index[coco_id]
+            bbox_gt = coco_annotation['bbox']
+            iou = get_iou(prediction['bbox'], bbox_gt)
+            category_gt = coco_annotation['category_id']
+            category_match = prediction['category_id'] == category_gt
+            # Add IOU and category correctness to the prediction dictionary
+            prediction['bbox_gt'] = bbox_gt
+            prediction['iou'] = iou
+            prediction['category_gt'] = category_gt
+            prediction['category_match'] = category_match
+            # write file
+            with open(new_yolo, 'w') as file:
+                json.dump(yolo, file, indent=4)
+                print(yolo)
     else:
         pass
 

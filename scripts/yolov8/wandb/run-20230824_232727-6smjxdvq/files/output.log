@@ -1,0 +1,73 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+
+
+
+
+[34m[1mtrain: [39m[22mScanning /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/PCAM01... 10581 images, 0 backgrounds, 4 corrupt: 100%|██████████| 10581/10581 [00:09<00:00, 1152.07it/s]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM02/2021-08-06 23-32-56 M 1_3.JPG: ignoring corrupt image/label: labels require 5 columns, 4 columns detected
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM04/2021-10-04 19-45-47 M 2_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM06/2021-10-04 01-32-46 M 1_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM07/2021-10-04 07-00-42 M 2_3.JPG: 6 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM07/2021-10-04 10-06-53 M 1_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM07/2021-10-04 20-13-31 M 1_3.JPG: 9 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM08/2021-10-04 06-05-49 M 3_3.JPG: 6 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM09/2021-10-04 08-31-40 M 1_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM09/2021-10-04 08-31-42 M 3_3.JPG: 6 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM11/2021-10-04 20-10-45 M 1_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM12/2021-09-11 19-41-05 M 1_3.JPG: ignoring corrupt image/label: labels require 5 columns, 4 columns detected
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM12/2021-10-04 11-56-20 M 2_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM14/2021-10-04 20-33-16 M 3_3.JPG: 3 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/PCAM15/2021-08-03 07-35-15 M 3_3.JPG: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/WCAM06/2021-06-19 04-27-25 M 3_3.JPG: ignoring corrupt image/label: labels require 5 columns, 4 columns detected
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/images/WCAM08/2021-09-22 23-03-11 M 3_3.JPG: ignoring corrupt image/label: labels require 5 columns, 4 columns detected
+[34m[1mtrain: [39m[22mNew cache created: /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/PCAM01.cache
+
+
+
+[34m[1mval: [39m[22mScanning /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/PCAM01... 2237 images, 0 backgrounds, 0 corrupt: 100%|██████████| 2237/2237 [00:06<00:00, 332.59it/s]
+[34m[1mval: [39m[22mNew cache created: /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/PCAM01.cache
+Plotting labels to runs/detect/train35/labels.jpg...
+[34m[1moptimizer:[39m[22m SGD(lr=0.01, momentum=0.9) with parameter groups 77 weight(decay=0.0), 84 weight(decay=0.0005), 83 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train35
+Starting training for 100 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+      1/100      8.71G      1.008      4.563      1.208         68        640:   2%|▏         | 13/662 [00:07<06:34,  1.65it/s]
+Traceback (most recent call last):
+  File "/home/jess2/wd_speciesid/scripts/yolov8/trial_4.py", line 18, in <module>
+    model.train(data='{}'.format(yaml_filename), epochs=100, patience=5, batch=16,  imgsz=640)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/engine/model.py", line 377, in train
+    self.trainer.train()
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 193, in train
+    self._do_train(world_size)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 351, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/nn/tasks.py", line 44, in forward
+    return self.loss(x, *args, **kwargs)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/nn/tasks.py", line 214, in loss
+    preds = self.forward(batch['img']) if preds is None else preds
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/nn/tasks.py", line 45, in forward
+    return self.predict(x, *args, **kwargs)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/nn/tasks.py", line 62, in predict
+    return self._predict_once(x, profile, visualize)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/nn/tasks.py", line 82, in _predict_once
+    x = m(x)  # run
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/ultralytics/nn/modules/conv.py", line 38, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/jess2/miniconda3/envs/yolov8/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 395, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt
