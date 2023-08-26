@@ -1,15 +1,15 @@
 import json
 import cv2
 
-load_yolo = json.load(open('/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'))
+load_yolo = json.load(open('/home/jess/wd_speciesid/scripts/yolov8/runs/detect/val2/predictions.json'))
 yolo=[]
 for prediction in load_yolo:
     if prediction['score']>0.05:
         good_prediction = prediction
         yolo.append(good_prediction)
 
-coco = json.load(open('/home/jess2/wd_speciesid/data/processed/val_coco.json'))
-new_yolo = '/home/jess2/wd_speciesid/scripts/yolov8/runs/detect/val2/updated_predictions.json'
+coco = json.load(open('/home/jess/wd_speciesid/data/processed/val_coco.json'))
+new_yolo = '/home/jess/wd_speciesid/scripts/yolov8/runs/detect/val2/updated_predictions.json'
 
 def get_iou(yolo_bbox, coco_bbox):
             

@@ -22,20 +22,20 @@ from PIL import Image
 from collections import defaultdict
 
 import sys
-sys.path.append("/home/jess2/wd_speciesid/MegaDetector/md_visualization") #this will point the scripts to the correct module
+sys.path.append("/home/jess/wd_speciesid/MegaDetector/") #this will point the scripts to the correct module
 
-from md_visualization import visualize_db
+# from md_visualization import visualize_db
 # from data_management.databases import sanity_check_json_db
 
-json_file = '/home/jess2/wd_speciesid/data/intermediate/md_output.json'
-output_json_file = '/home/jess2/wd_speciesid/data/intermediate/md_coco.json'
+json_file = '/home/jess/wd_speciesid/data/intermediate/md_output.json'
+output_json_file = '/home/jess/wd_speciesid/data/intermediate/md_coco.json'
 
 # Images sizes are required to convert between absolute and relative coordinates,
 # so we need to read the images.
-image_base_folder = '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged'
+image_base_folder = '/home/jess/data/wild_deserts/Beyond the Fence- Tagged'
 
 # Only required if you want to write a database preview
-output_dir_base = '/home/jess2/wd_speciesid/data/processed'
+output_dir_base = '/home/jess/wd_speciesid/data/processed'
 
 
 #%% Create CCT dictionaries
@@ -161,53 +161,3 @@ json.dump(json_data, open(output_json_file, 'w'), indent=2)
 
 print('Finished writing .json file with {} images, {} annotations, and {} categories'.format(
     len(images), len(annotations), len(categories)))
-
-
-#%% Clean start
-
-### Everything after this should work from a clean start ###
-
-
-#%% Validate output
-
-# fn = output_json_file
-# options = sanity_check_json_db.SanityCheckOptions()
-# options.baseDir = image_base_folder
-# options.bCheckImageSizes = False
-# options.bCheckImageExistence = False
-# options.bFindUnusedImages = False
-# sorted_categories, data, errors = sanity_check_json_db.sanity_check_json_db(fn, options)
-
-
-#%% Preview animal labels
-
-# viz_options = visualize_db.DbVizOptions()
-# viz_options.num_to_visualize = 3000
-# viz_options.trim_to_images_with_bboxes = False
-# viz_options.add_search_links = False
-# viz_options.sort_by_filename = False
-# viz_options.parallelize_rendering = True
-# html_output_file, image_db = visualize_db.process_images(db_path=output_json_file,
-#                                                          output_dir=os.path.join(
-#                                                          output_dir_base, 'preview_animals'),
-#                                                          image_base_dir=image_base_folder,
-#                                                          options=viz_options)
-# os.startfile(html_output_file)
-
-
-#%% Preview empty labels
-
-# viz_options = visualize_db.DbVizOptions()
-# viz_options.num_to_visualize = 3000
-# viz_options.trim_to_images_with_bboxes = False
-# # viz_options.classes_to_exclude = ['empty','human']
-# viz_options.classes_to_include = ['empty']
-# viz_options.add_search_links = False
-# viz_options.sort_by_filename = False
-# viz_options.parallelize_rendering = True
-# html_output_file, image_db = visualize_db.process_images(db_path=output_json_file,
-#                                                          output_dir=os.path.join(
-#                                                          output_dir_base, 'preview_empty'),
-#                                                          image_base_dir=image_base_folder,
-#                                                          options=viz_options)
-# os.startfile(html_output_file)
