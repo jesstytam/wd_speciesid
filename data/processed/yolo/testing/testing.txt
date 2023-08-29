@@ -2244,3 +2244,5 @@
 /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/WCAM03/2022-02-07 20-53-30 M 1_3.txt
 /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/WCAM03/2022-02-15 02-03-14 M 1_3.txt
 /home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/WCAM03/2022-02-18 00-09-15 M 1_3.txt
+/home/jess/data/wild_deserts/Beyond the Fence- Tagged/labels/PCAM08/2021-10-04 03-00-02 M 1_3.txt
+/home/jess/data/wild_deserts/Beyond the Fence- Tagged/labels/PCAM09/2021-10-04 19-40-14 M 1_3.txt

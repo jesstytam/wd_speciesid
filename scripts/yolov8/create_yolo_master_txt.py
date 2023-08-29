@@ -3,8 +3,8 @@ import os
 def write_text_file(dataset):
 
     # Define the source and destination directories
-    source_directory = '/home/jess2/data/wild_deserts/Beyond the Fence- Tagged/labels/'
-    destination_directory = '/home/jess2/wd_speciesid/data/processed/yolo/'+dataset
+    source_directory = '/home/jess/data/wild_deserts/Beyond the Fence- Tagged/labels/'
+    destination_directory = '/home/jess/wd_speciesid/data/processed/yolo/'+dataset
 
     # Define the text file where you want to write the file paths
     output_file = os.path.join(destination_directory, (dataset+'.txt'))
